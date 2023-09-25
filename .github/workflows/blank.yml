@@ -2,9 +2,8 @@
 # It will take the following action whenever a push is made to the "main" branch.
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  pull_request:
+  
 jobs:
   demo:
     permissions:
